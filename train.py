@@ -39,7 +39,7 @@ def create_augmented_samples():
             plt.imsave(f'augmented_samples/{i}/sample_{j}.png',
                       img.squeeze().numpy(), cmap='gray')
 
-def train_model(epochs=1, learning_rate=0.001, batch_size=8, use_augmentation=True):
+def train_model(epochs=1, learning_rate=0.001, batch_size=8, use_augmentation=False):
     # Define transforms based on augmentation flag
     if use_augmentation:
         transform = transforms.Compose([
