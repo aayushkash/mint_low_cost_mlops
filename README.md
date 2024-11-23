@@ -1,6 +1,6 @@
 # MNIST Classification with PyTorch
 
-[![Python application](https://github.com/<username>/<repository>/actions/workflows/python-app.yml/badge.svg)](https://github.com/<username>/<repository>/actions/workflows/python-app.yml)
+[![Python application](https://github.com/aayushkash/mint_low_cost_mlops/actions/workflows/python-app.yml/badge.svg)](https://github.com/aayushkash/mint_low_cost_mlops/actions/workflows/python-app.yml)
 
 A PyTorch implementation of MNIST digit classification with specific architectural constraints and high accuracy.
 
